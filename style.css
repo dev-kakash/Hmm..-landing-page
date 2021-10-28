@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 105%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+.main .left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .left nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .left nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.main .left nav ul li {
+  margin-left: 10px;
+}
+
+.main .content h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main .content p {
+  width: 70%;
+}
+
+.main .content button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: 500;
+}
+
+.main .social {
+  text-align: end;
+}
+
+.main .social i {
+  margin-left: 5px;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}
